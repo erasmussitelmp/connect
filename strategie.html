@@ -8,23 +8,33 @@
 </head>
 <body>
     <header>
-        <nav>
-            <div class="left">
-                <img src="media/logo.jpeg" class="logo-nav">
-            </div>
-            <div class="right">
-                <a href="home.html">Home</a>
-                <a href="vizita.html">În vizită</a>
-                <a href="competente.html">Competențe Erasmus+</a>
-                <a href="strategie.html">Strategie didactică integrată</a>
-                <a href="vocea.html">Vrem să auzim vocea ta</a>
-            </div>
-        </nav>
-    </header>
+    <nav>
+        <div class="left">
+            <img src="media/logo.jpeg" class="logo-nav">
+        </div>
+
+        <div class="menu-toggle" onclick="toggleMenu()">
+            ☰
+        </div>
+
+        <div class="right" id="menu">
+            <a href="home.html">Home</a>
+            <a href="vizita.html">În vizită</a>
+            <a href="competente.html">Competențe Erasmus+</a>
+            <a href="strategie.html">Strategie didactică integrată</a>
+            <a href="vocea.html">Vrem să auzim vocea ta</a>
+        </div>
+    </nav>
+</header>
     <section class="strategie-container">
         <img src="media/IMG1.jpeg" alt="" class="poza-strategie">
         <img src="media/IMG2.jpeg" alt="" class="poza-strategie">
         <img src="media/IMG3.jpeg" alt="" class="poza-strategie">
     </section>
 </body>
+    <script>
+function toggleMenu() {
+    document.getElementById("menu").classList.toggle("active");
+}
+</script>
 </html>
