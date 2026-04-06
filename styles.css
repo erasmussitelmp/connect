@@ -422,6 +422,12 @@ video {
 .left {
     width: 100%;
 }
+.menu-toggle {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+    color: white;
+}
 @media (max-width: 768px) {
     .countries {
         flex-direction: column;
