@@ -511,4 +511,7 @@ video {
     .right.active {
         bottom: 0;
     }   
+    #videoclip {
+        width: 90%;
+    }
 }
