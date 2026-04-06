@@ -1,0 +1,471 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #1F2E4E;
+    font-family: 'Raleway', sans-serif;
+}
+::selection {
+    background-color: #cfcfcf;
+    color: #000;
+}
+.cover {
+            width: 100vw;
+            height: 100vh;
+            background: url("media/coperta.jpeg") no-repeat center/cover;
+            cursor: pointer;
+}
+.intro {
+    height: 100%;
+    margin: 50px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.intro p {
+    color:#FFFFFF;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.7;
+    text-align: center;
+}
+.category {
+    border: 1px solid #E8C97A;
+    padding: 10px;
+    color: #E8C97A;
+    background-color: #e8c97a28;
+    font-size: 1.4rem;
+    font-weight: 400;
+    border-radius: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.category2 {
+    border: 1px solid #d8e7ee;
+    padding: 10px;
+    color: #d8e7ee;
+    background-color: #b2cddc2b;
+    font-size: 1.4rem;
+    font-weight: 400;
+    border-radius: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.countries {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3%;
+}
+h1 {
+    color: #FFFFFF;
+    font-size: 4rem;
+    margin-top: 2%;
+}
+h2 {
+    color: #9BB5CC;
+    font-size: 2.5rem;
+    font-weight: 100;
+    margin-bottom: 3%;
+}
+h4 {
+    color: #8B1A1A;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 1%;
+    font-size: 1.3rem;
+}
+.about {
+    height: 100%;
+    padding: 100px;
+    background: #F5F0E8;
+}
+.about p {
+    color: #44445E;
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 1.6;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.map p {
+    color: #44445E;
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 1.6;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.map {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.map svg {
+    background: #9dcede;
+    border-radius: 20px;
+    width: 75%;
+}
+svg path {
+    fill: #fff;
+    stroke-width: 0.25;
+    stroke: #000;
+}
+svg #FR {
+    fill: #E8E6E2;
+}
+svg #ES {
+    fill: #c96767;
+}
+svg #HU {
+    fill: #7ad27d;
+}
+svg #RO {
+    fill: #ded158;
+}
+svg #TR  {
+    fill: #66a8dd;
+}
+svg #FR:hover {
+    fill: #c0bbb1;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+svg #ES:hover {
+    fill: #b05050;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+svg #HU:hover {
+    fill: #468648;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+svg #RO:hover {
+    fill: #b7ac47;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+svg #TR:hover  {
+    fill: #4d81ab;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.flag {
+    width: 5%;
+    margin-bottom: -50px;
+}
+.back {
+    text-decoration: none;
+    color:#A8B5CC;
+}
+.back:hover {
+    text-decoration: underline;
+}
+.istorie-gastronomica {
+    height: 100%;
+    padding: 100px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.istorie-gastronomica h4 {
+    font-size: 2rem;
+}
+.istoria_fr {
+    width: 40%;
+}
+.reteta {
+    background: #F8F8EC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    padding: 100px;
+}
+.reteta img {
+    width: 35%;
+}
+.stiai {
+    background-color: #ECE8DD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    flex-direction: column;
+}
+.meniu {
+    background: #FFF3E3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+.meniu img {
+    width: 35%;
+    border-radius: 20px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+}
+.gallery {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.gallery img {
+    width: 50%;
+    border-radius: 20px;
+}
+header {
+    padding: 30px;
+    background-color: #1C2B4A;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+.vizitabtn {
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 400;
+    border: 1.5px solid #8B1A1A;
+    color: #8B1A1A;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+.vizitabtn:hover {
+    background: #8B1A1A;
+    color: white;
+    transform: scale(1.1);
+}
+.istoria_fr {
+    margin-bottom: 100px;
+}
+.incearac {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #000;
+}
+.diagrama {
+    background: #F6F1EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+.diagrama-img {
+    width: 50%;
+}
+.sectiune {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+.sectiune img {
+    width: 30%;
+}
+.sectiune a {
+    margin-top: 10px;
+}
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8F8EC;
+    padding: 50px;
+}
+video {
+    border-radius: 20px;
+}
+.logo {
+    width: 10%;
+    border-radius: 100px;
+    margin-top: 50px;
+}
+.logo-nav {
+    width: 7%;
+    border-radius: 100px;
+}
+.right {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.category2 {
+
+}
+.nentu-section {
+    display: flex;
+    background-color: #ECE8DD;
+    justify-content: left;
+    align-items: center;
+}
+.nentu {
+    color: transparent;
+    font-size: 5px;
+    width: 20px;
+}
+.nentu:hover {
+    color: #000;
+}
+.fr {
+    color: #E8E6E2;
+}
+.sp {
+    color: #EF9A9A;
+}
+.hu {
+    color: #A5D6A7;
+}
+.ro {
+    color: #FFF176;
+}
+.tr {
+    color: #90CAF9;
+}
+.scoala {
+    font-style: italic;
+    font-weight: bold ;
+}
+.france-title {
+    color: #E8E6E2;
+    background: #1F2E4E;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 100px;
+}
+.spain-title {
+    color: #EF9A9A;
+    background: #1F2E4E;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 100px;
+}
+.romania-title {
+    color: #FFF176;
+    background: #1F2E4E;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 100px;
+}
+.turcia-title {
+    color: #90CAF9;
+    background: #1F2E4E;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 100px;
+}
+.ungaria-title {
+    color: #A5D6A7;
+    background: #1F2E4E;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 100px;
+}
+.poza-strategie {
+    width: 25%;
+    border-radius: 20px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+}
+.strategie-container {
+    background-color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+}
+.right {
+    width: 100%;
+}
+.left {
+    width: 100%;
+}
+@media (max-width: 768px) {
+    .countries {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .category2 {
+        width: 100%;
+    }
+    .logo {
+        width: 30%;
+    }
+    .intro h2,h1 {
+        text-align: center;
+    }
+    .about {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .meniu img {
+        width: 100%;
+    }
+    .gallery img{
+        width: 85%;
+    }
+    .diagrama {
+        padding-left: 0;
+        padding-right: 0;
+        height: 100vh;
+    }
+    .diagrama img {
+        width: 90%;
+    }
+    .strategie-container {
+        flex-direction: column;
+    }
+    .strategie-container img {
+        width: 100%;
+    }
+    .sectiune {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .sectiune img {
+        width: 80%;
+    }
+    
+}
