@@ -16,6 +16,7 @@ body{
             background: url("media/coperta.jpeg") no-repeat center/cover;
             cursor: pointer;
 }
+
 .intro {
     height: 100%;
     margin: 50px;
@@ -427,6 +428,9 @@ video {
     font-size: 28px;
     cursor: pointer;
     color: white;
+}
+.strategie-container {
+    flex-direction:column;
 }
 @media (max-width: 768px) {
     .countries {
